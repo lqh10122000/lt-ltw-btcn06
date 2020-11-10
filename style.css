@@ -84,8 +84,21 @@ h2
 }
 
 body{
-    background-image: url("background.jpeg");
-    background-repeat: inherit;
+    /* background-image: url("background.jpeg"); */
+    /* background-repeat: inherit; */
 }
 
 
+.bar-header
+{
+    max-height: 100px;
+    max-width: 1000px;
+    background-color: aqua; 
+    display: flex;
+    margin-left: 20px;
+}
+
+.aaaa
+{
+    background-color: aqua;
+}

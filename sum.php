@@ -11,9 +11,66 @@
     require_once 'init.php';
 
 ?>
+
+
+<style>
+    .button-bar
+    {
+        margin-left : 40px;
+        margin-top : 20px;
+        height: 60px;
+        width : 120px; 
+        flex-wrap: nowrap;
+    }
+
+    .bar-header
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        height: 100px; 
+        width = 1000px; 
+        background-color : black;
+    }
+</style>
+
 <body>
     
-    <div class="container">
+
+   <?php include_once("header.php"); ?>
+
+<!-- 
+
+    <div class = "bar-header ">
+        
+        <div>
+            <form action = "sum.php" >
+                <input  class = "button-bar" name="submit" type="submit" value = "sum">
+            </from>
+        </div>
+        
+        <div>
+            <form action = "status.php">
+                <input  class = "button-bar"  type="submit" value = "status"> 
+            </from>
+        </div>
+        
+        <div>
+            <form action = "profile.php">
+                <input  class = "button-bar" type="submit" value = "profile">  
+            </from>
+        </div>
+        
+        <div>
+            <form action = "dangNhap.php">
+                <input class = "button-bar" type="submit" value = "log out"> 
+            </from>
+        </div>
+        
+
+    </div> -->
+    
+    <div class="container masthead" style="background-image: url('./images/home-bg.jpg')">
+
         
         <div class="row">
             <div class="col cs1">
@@ -63,12 +120,6 @@
                 </form>
                 
             </div>
-
-          
-            
-           
-           
-
                 
                 
                 <!-- <h1>Tính Tổng 1 Số</h1> -->
